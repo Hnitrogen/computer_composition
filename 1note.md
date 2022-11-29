@@ -45,4 +45,20 @@
 
 ![](./5.png)
 
+![](./6.png)
 
+```
+运算器的基本组成: ACC(累加器) MQ(乘商寄存器) X(通用操作寄存器) | ALU(算数逻辑单元) --- 复杂逻辑电路
+```
+****
+```
+这里的控制器指的是CPU
+	控制器的基本组成: 
+		由指令寄存器IR（InstructionRegister）
+		程序计数器PC（ProgramCounter）
+		操作控制器OC（OperationController） --- CU
+
+	1	取指令 --- PC
+	2	分析指令 --- IR
+	3	执行指令 --- OC （CU）
+```
